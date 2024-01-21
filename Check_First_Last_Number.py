@@ -9,6 +9,12 @@ def check_first_last_equal(numbers):
     else:
         result=False
 
+    # Print result
+    print(f"Given list: {numbers}")
+    print("Result is", result)
+    print()
+
+
 # Give the values
 numbers_x=[10, 20, 30, 40, 10]
 numbers_y=[75, 65, 35, 75, 30]
@@ -16,4 +22,7 @@ numbers_y=[75, 65, 35, 75, 30]
 # Check the values
 check_first_last_equal(numbers_x)
 check_first_last_equal(numbers_y)
-# Print result
+
+
+
+
